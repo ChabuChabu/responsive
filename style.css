@@ -4,8 +4,11 @@ body{
 .container{
     display: grid;
     height: 100vh;
+    border: 1px solid blue;
+    
 
     grid-template-rows: auto 1fr auto;
+    align-items: center;
 }
 .content{
     display: grid;
@@ -22,6 +25,6 @@ body{
     height: 414.55px;
 }
 .content__description{
-    grid-column: 6 /span 6 ;
+    grid-column: 6 /span 4 ;
     border: 1px solid green;
 }
