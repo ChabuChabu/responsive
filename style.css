@@ -95,7 +95,7 @@ button{
     font:bold;
 }
 
-/**************** Screen size 768 styles *************************/
+/**************** Media queries  *************************/
 
 @media (max-width: 768px){
     .container{
@@ -175,113 +175,4 @@ button{
         font-size: 18px;
     
     }
-}
-/**************** screen size 320 styles *************************/
-@media  (max-width: 426px){
-    header{
-        width: 160px;
-        height: 25px;
-    }
-
-    button{
-        position: absolute;
-        bottom: 20%;
-        left: 10px;
-    }
- 
-    .description__header,
-    .description__content {
-        margin-left: 20px;
-    }
-   
-    .content{
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: none;
-        
-    }
-
-    .content__photo{
-        width: 286px;
-        height: 220px;
-    }
-    .content__photo img{
-        width: 100%;
-        height: 100%; 
-        object-fit:contain;
-    }
-    .description__header{
-        width: 350px;
-        height: 142px;
-        line-height: 20px;
-    }
-    .description__header h1{
-        font-size: 40px;
-        line-height: 55px;
-    }
-    .description__content{
-        width: 328px;
-        height: 81px;
-    }
-    .description__content p{
-        font-weight: 400;
-        font-size: 18px;
-    
-    }
-  
-
-}
-
-/**************** screen size 320 styles *************************/
-@media  (max-width: 320px){
-   
-    header{
-        width: 160px;
-        height: 25px;
-    }
-
-    button{
-        position: absolute;
-        bottom: 20%;
-        left: 10px;
-    }
- 
-    .description__header,
-    .description__content {
-        margin-left: 20px;
-    }
-   
-    .content{
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: none;
-        
-    }
-
-    .content__photo{
-        width: 286px;
-        height: 220px;
-    }
-    .content__photo img{
-        width: 100%;
-        height: 100%; 
-        object-fit:contain;
-    }
-    .description__header{
-        width: 350px;
-        height: 142px;
-        line-height: 20px;
-    }
-    .description__header h1{
-        font-size: 40px;
-        line-height: 55px;
-    }
-    .description__content{
-        width: 328px;
-        height: 81px;
-    }
-    .description__content p{
-        font-weight: 400;
-        font-size: 18px;
-    
-    }
-  
 }
